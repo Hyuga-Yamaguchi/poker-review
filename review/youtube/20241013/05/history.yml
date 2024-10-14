@@ -1,0 +1,57 @@
+data:
+  pos:
+    hero: HJ
+    villain: BB
+  hand:
+    hero: KcJh
+    villain: Jc8c
+  es: 100
+
+history:
+  preflop:
+    board: null
+    pot: 1.5
+    es: 100
+    line:
+      - player: HJ
+        action: raise
+        size: 2.5
+      - player: BB
+        action: call
+        size: 2.5
+
+  flop:
+    board: 2cTsAs
+    pot: 5.5
+    es: 97.5
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: HJ
+        action: check
+        size: 0
+  
+  turn:
+    board: 2cTsAsTh
+    pot: 5.5
+    es: 97.5
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: HJ
+        action: check
+        size: 0
+  
+  river:
+    board: 2cTsAsThAd
+    pot: 5.5
+    es: 97.5
+    line:
+      - player: BB
+        action: bet
+        size: 4.1
+      - player: HJ
+        action: call
+        size: 4.1

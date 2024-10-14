@@ -1,0 +1,74 @@
+# 特殊なPreflopのためSolverでの解析不可
+
+data:
+  pos:
+    hero: BB
+    villain: CO
+  hand:
+    hero: KcKd
+    villain: QsQd
+  es: 81.1
+
+history:
+  preflop:
+    board: null
+    pot: 1.5
+    es: 81.1
+    line:
+      - player: CO
+        action: call
+        size: 1
+      - player: BB
+        action: raise
+        size: 5
+      - player: CO
+        action: raise
+        size: 9
+      - player: BB
+        action: raise
+        size: 23
+      - player: CO
+        action: call
+        size: 23
+
+  flop:
+    board: 6cAc8h
+    pot: 46.5
+    es: 58.1
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: CO
+        action: check
+        size: 0
+  
+  turn:
+    board: 6cAc8h7c
+    pot: 46.5
+    es: 58.1
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: CO
+        action: bet
+        size: 12
+      - player: BB
+        action: call
+        size: 12
+  
+  river:
+    board: 6cAc8h7c8s
+    pot: 70.5
+    es: 46.1
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: CO
+        action: bet
+        size: 24
+      - player: BB
+        action: call
+        size: 24

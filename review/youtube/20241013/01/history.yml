@@ -1,0 +1,66 @@
+data:
+  pos:
+    hero: CO
+    villain: BB
+  hand:
+    hero: Qc5c
+    villain: null
+  es: 100
+
+history:
+  preflop:
+    board: null
+    pot: 1.5
+    es: 100
+    line:
+      - player: CO
+        action: raise
+        size: 2.5
+      - player: BB
+        action: call
+        size: 2.5
+  
+  flop:
+    board: 4sAdKd
+    pot: 5.5
+    es: 97.5
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: CO
+        action: bet
+        size: 1.7
+      - player: BB
+        action: call
+        size: 1.7
+  
+  turn:
+    board: 4sAdKd3h
+    pot: 8.9
+    es: 95.8
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: CO
+        action: bet
+        size: 11.5
+      - player: BB
+        action: call
+        size: 11.5
+  
+  river:
+    board: 4sAdKd3hTh
+    pot: 31.9
+    es: 83.9
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: CO
+        action: bet
+        size: 83.9
+      - player: BB
+        action: fold
+        size: null

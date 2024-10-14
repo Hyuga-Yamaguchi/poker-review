@@ -1,0 +1,57 @@
+data:
+  pos:
+    hero: BB
+    villain: BTN
+  hand:
+    hero: 6s6h
+    villain: AsTh
+  es: 100
+
+history:
+  preflop:
+    board: null
+    pot: 1.5
+    es: 100
+    line:
+      - player: BTN
+        action: raise
+        size: 2.2
+      - player: BB
+        action: call
+        size: 2.2
+
+  flop:
+    board: 6d9dAh
+    pot: 4.9
+    es: 97.8
+    line:
+      - player: BB
+        action: check
+        size: 0
+      - player: BTN
+        action: check
+        size: 0
+  
+  turn:
+    board: 6d9dAhJs
+    pot: 4.9
+    es: 97.8
+    line:
+      - player: BB
+        action: bet
+        size: 6.3
+      - player: BTN
+        action: call
+        size: 6.3
+  
+  river:
+    board: 6d9dAhJsQs
+    pot: 17.5
+    es: 91.5
+    line:
+      - player: BB
+        action: bet
+        size: 22.7
+      - player: BTN
+        action: call
+        size: 22.7

@@ -1,0 +1,63 @@
+data:
+  pos:
+    hero: SB
+    villain: BB
+  hand:
+    hero: 5h5s
+    villain: 6d6h
+  es: 108.9
+
+history:
+  preflop:
+    board: null
+    pot: 1.5
+    es: 108.9
+    line:
+      - player: SB
+        action: raise
+        size: 3
+      - player: BB
+        action: call
+        size: 3
+  
+  flop:
+    board: 8d6sQc
+    pot: 6
+    es: 105.9
+    line:
+      - player: SB
+        action: check
+        size: 0
+      - player: BB
+        action: bet
+        size: 3
+      - player: SB
+        action: call
+        size: 3
+  
+  turn:
+    board: 8d6sQc5d
+    pot: 12
+    es: 102.9
+    line:
+      - player: SB
+        action: check
+        size: 0
+      - player: BB
+        action: bet
+        size: 9
+      - player: SB
+        action: raise
+        size: 24
+      - player: BB
+        action: raise
+        size: 102.9
+      - plater: SB
+        action: call
+        size: 102.9
+  
+  river:
+    board: 4sAdKd3h9c
+    pot: 217.8
+    es: 0
+    line: null
